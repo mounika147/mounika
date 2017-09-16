@@ -10,7 +10,7 @@ Date d= new Date(4,5,1999);
 		m.setStudent(s,10);
 		System.out.println("index");
 		System.out.println("date"+d);
-		System.out.println(""+m.getStudent(0).getId());
+		//System.out.println(""+m.getStudent(0).getId());
 		//You may test that your code works find here
 		//Please check that your code works and has no
 		//compilation problems before to submit
