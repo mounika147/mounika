@@ -1,11 +1,11 @@
 
-import java.util.Date;
+import java.util.*;
 
 
 public class StudentGroup implements StudentArrayOperation {
 
 	private Student[] students;
-
+Scanner s=new Scanner(System.in);
 
 	public StudentGroup(int length) {
 		this.students = new Student[length];
@@ -18,9 +18,14 @@ public class StudentGroup implements StudentArrayOperation {
 	}
 
 
-	public void setStudents(Student[] students) {
-		this.students=students;// Add your implementation here
-	}
+	public void setStudents(Student[] students)
+	 {
+		this.students[0]=students[0];
+		this.students[1]=students[1];
+
+
+
+		}
 
 
 	public Student getStudent(int index) {
