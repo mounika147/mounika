@@ -20,8 +20,8 @@ Scanner s=new Scanner(System.in);
 
 	public void setStudents(Student[] students)
 	 {
-		this.students[0]=students[0];
-		this.students[1]=students[1];
+		this.students=students;
+		//this.students[1]=students[1];
 
 
 
