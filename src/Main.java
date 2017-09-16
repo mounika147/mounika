@@ -2,17 +2,7 @@ import java.util.*;
 public class Main {
 
 	public static void main(String[] args) {
-	    StudentGroup m =new StudentGroup(100);
-//	    //Student s=new Student(20,"student",d,92.0);
 
-		m.getStudent(10);
-		//m.setStudent(s,10);
-		System.out.println("index");
-		//System.out.println("date"+d);
-		//System.out.println(""+m.getStudent(0).getId());
-		//You may test that your code works find here
-		//Please check that your code works and has no
-		//compilation problems before to submit
 	}
 
 }
